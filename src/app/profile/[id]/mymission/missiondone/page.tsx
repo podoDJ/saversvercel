@@ -5,10 +5,8 @@ import React from "react";
 
 // export const revalidate = 0;
 
-export const currentDate = convertDate(new Date());
-
 const MissionDone = async ({ params }: { params: { id: string } }) => {
-  
+  const currentDate = convertDate(new Date());
   const searchId = decodeURIComponent(params.id);
   let { data: dailyMission, error } = await supabase
 

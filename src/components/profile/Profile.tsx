@@ -147,7 +147,7 @@ const Profile = ({ profileId }: ProfileProps) => {
                 <>
                   <div>완료한 미션이 나오게 됨</div>
                   <div>
-                    나중에 Carousel이나 로그? "내가 쓴 글"처럼 리스트를 추가해야
+                    나중에 Carousel이나 로그? 내가 쓴 글처럼 리스트를 추가해야
                     함
                   </div>
                 </>
@@ -218,7 +218,7 @@ const Profile = ({ profileId }: ProfileProps) => {
                 <>
                   <div>내가 쓴 댓글과 댓글단 글이 나와야 함</div>
                   <div>
-                    나중에 Carousel이나 로그? "내가 쓴 글"처럼 리스트를 추가해야
+                    나중에 Carousel이나 로그? 내가 쓴 글처럼 리스트를 추가해야
                     함
                   </div>
                 </>
@@ -227,7 +227,7 @@ const Profile = ({ profileId }: ProfileProps) => {
                 <>
                   <div>내가 북마크한 글이 나와야 함</div>
                   <div>
-                    나중에 Carousel이나 로그? "내가 쓴 글"처럼 리스트를 추가해야
+                    나중에 Carousel이나 로그? 내가 쓴 글처럼 리스트를 추가해야
                     함
                   </div>
                 </>
@@ -236,7 +236,7 @@ const Profile = ({ profileId }: ProfileProps) => {
                 <>
                   <div>내가 북마크한 식당이 나와야 함</div>
                   <div>
-                    나중에 Carousel이나 로그? "내가 쓴 글"처럼 리스트를 추가해야
+                    나중에 Carousel이나 로그? 내가 쓴 글처럼 리스트를 추가해야
                     함
                   </div>
                 </>
@@ -245,7 +245,7 @@ const Profile = ({ profileId }: ProfileProps) => {
                 <>
                   <div>내가 북마크한 제품이 나와야 함</div>
                   <div>
-                    나중에 Carousel이나 로그? "내가 쓴 글"처럼 리스트를 추가해야
+                    나중에 Carousel이나 로그? 내가 쓴 글처럼 리스트를 추가해야
                     함
                   </div>
                 </>

@@ -60,13 +60,13 @@ const Badges = () => {
     fetchBadgesByMission(data)
   };
 
-  const shareBadge = badges.find((item) => item.badge_title === "share");
+  const shareBadge = badges.find((item: any) => item.badge_title === "share");
   const threeShareBadge =
-    badges.filter((item) => item.badge_title === "share").length >= 3;
+    badges.filter((item: any) => item.badge_title === "share").length >= 3;
 
-  const likeBadge = badges.find((item) => item.badge_title === "like");
+  const likeBadge = badges.find((item: any) => item.badge_title === "like");
   const threeLikeBadge =
-    badges.filter((item) => item.badge_title === "like").length >= 3;
+    badges.filter((item: any) => item.badge_title === "like").length >= 3;
 
 ///===================👇동준작업👇=========================================================
 /*
@@ -88,7 +88,7 @@ const goldTrophy = badgesByMissionCount >= 3
 
   return (
     <div>
-      
+
     </div>
     // <div className="grid grid-cols-3 gap-4 w-full h-full">
     // <div className="bg-gray-200 p-4">[새싹 세이버] 회원가입시 받는 배지</div>
