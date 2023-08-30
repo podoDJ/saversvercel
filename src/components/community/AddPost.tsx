@@ -15,7 +15,7 @@ import { getMissionHandler, updateMissionHandler } from "@/api/mission/checkMiss
 
 type NewPost = Database["public"]["Tables"]["community"]["Insert"];
 
-const currentDate = convertDate(new Date());
+
 
 const AddPost: NextComponentType = () => {
   const [category, setCategory] = useState("");
