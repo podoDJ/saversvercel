@@ -87,69 +87,72 @@ const goldTrophy = badgesByMissionCount >= 3
   }, []);
 
   return (
-    <div className="grid grid-cols-3 gap-4 w-full h-full">
-    <div className="bg-gray-200 p-4">[새싹 세이버] 회원가입시 받는 배지</div>
-    <div className="bg-gray-200 p-4">
-      {shareBadge
-        ? "[나눔꾼] 물건 공유하기 배지"
-        : "아직 공유하기 배지를 획득하지 못했습니다."}
+    <div>
+      
     </div>
-    <div className="bg-gray-200 p-4">
-      {threeShareBadge
-        ? "[나눔꾼3] 물건 세번 공유하기 배지"
-        : "아직 세번 공유하기 배지를 획득하지 못했습니다."}
-    </div>
-    <div className="bg-gray-200 p-4">
-      {likeBadge
-        ? "[사랑꾼] 좋아요 1회 배지"
-        : "좋아요 배지를 획득하지 못했습니다."}
-    </div>
-    <div className="bg-gray-200 p-4">
-    {threeLikeBadge
-        ? "[사랑꾼] 좋아요 3회 배지"
-        : "좋아요 3회 배지를 획득하지 못했습니다."}
-    </div>
-    <div className="bg-gray-200 p-4">
-    {firstMission
-        ? (
-          <>
-          <img src="https://img.myloview.com/posters/cute-earth-character-green-and-blue-planet-save-earth-day-funny-emoticon-in-flat-style-cartoon-emoji-vector-illustration-400-204245384.jpg" />
-          <p>[첫 미션 클리어]</p>
-          </>
-          )
-        : (<p>"아직 [첫 미션 클리어] 배지를 획득하지 못했습니다."</p>)}
-    </div>
-    <div className="bg-gray-200 p-4">
-    {bronzeTrophy
-        ? (
-          <>
-          <img src="https://static.vecteezy.com/system/resources/previews/010/976/286/original/bronze-cup-3d-winner-award-3d-place-minimal-bronze-winners-stars-on-podium-champion-award-ceremony-concept-in-cartoon-style-3d-trophy-render-isolated-on-white-background-game-or-education-free-vector.jpg" />
-          <p>[미션 헌터]</p>
-          </>
-          )
-        : (<p>"아직 [미션 헌터] 배지를 획득하지 못했습니다."</p>)}
-    </div>
-    <div className="bg-gray-200 p-4">
-    {silverTrophy
-        ? (
-          <>
-          <img src="https://static.vecteezy.com/system/resources/previews/010/976/282/non_2x/silver-cup-3d-winner-award-2nd-place-minimal-silver-winners-stars-on-podium-champion-award-ceremony-concept-in-cartoon-style-3d-trophy-render-isolated-on-white-background-game-or-education-free-vector.jpg" />
-          <p>[미션 프로]</p>
-          </>
-          )
-        : (<p>"아직 [미션 프로] 배지를 획득하지 못했습니다."</p>)}
-    </div>
-    <div className="bg-gray-200 p-4">
-    {goldTrophy
-        ? (
-          <>
-          <img src="https://static.vecteezy.com/system/resources/previews/010/976/289/non_2x/golden-cup-3d-winner-award-1st-place-minimal-gold-winners-stars-on-podium-champion-award-ceremony-concept-in-cartoon-style-3d-trophy-render-isolated-on-white-background-game-or-education-free-vector.jpg" />
-          <p>[미션 마스터]</p>
-          </>
-          )
-        : (<p>"아직 [미션 마스터] 배지를 획득하지 못했습니다."</p>)}
-    </div>
-    </div>
+    // <div className="grid grid-cols-3 gap-4 w-full h-full">
+    // <div className="bg-gray-200 p-4">[새싹 세이버] 회원가입시 받는 배지</div>
+    // <div className="bg-gray-200 p-4">
+    //   {shareBadge
+    //     ? "[나눔꾼] 물건 공유하기 배지"
+    //     : "아직 공유하기 배지를 획득하지 못했습니다."}
+    // </div>
+    // <div className="bg-gray-200 p-4">
+    //   {threeShareBadge
+    //     ? "[나눔꾼3] 물건 세번 공유하기 배지"
+    //     : "아직 세번 공유하기 배지를 획득하지 못했습니다."}
+    // </div>
+    // <div className="bg-gray-200 p-4">
+    //   {likeBadge
+    //     ? "[사랑꾼] 좋아요 1회 배지"
+    //     : "좋아요 배지를 획득하지 못했습니다."}
+    // </div>
+    // <div className="bg-gray-200 p-4">
+    // {threeLikeBadge
+    //     ? "[사랑꾼] 좋아요 3회 배지"
+    //     : "좋아요 3회 배지를 획득하지 못했습니다."}
+    // </div>
+    // <div className="bg-gray-200 p-4">
+    // {firstMission
+    //     ? (
+    //       <>
+    //       <img src="https://img.myloview.com/posters/cute-earth-character-green-and-blue-planet-save-earth-day-funny-emoticon-in-flat-style-cartoon-emoji-vector-illustration-400-204245384.jpg" />
+    //       <p>[첫 미션 클리어]</p>
+    //       </>
+    //       )
+    //     : (<p>"아직 [첫 미션 클리어] 배지를 획득하지 못했습니다."</p>)}
+    // </div>
+    // <div className="bg-gray-200 p-4">
+    // {bronzeTrophy
+    //     ? (
+    //       <>
+    //       <img src="https://static.vecteezy.com/system/resources/previews/010/976/286/original/bronze-cup-3d-winner-award-3d-place-minimal-bronze-winners-stars-on-podium-champion-award-ceremony-concept-in-cartoon-style-3d-trophy-render-isolated-on-white-background-game-or-education-free-vector.jpg" />
+    //       <p>[미션 헌터]</p>
+    //       </>
+    //       )
+    //     : (<p>"아직 [미션 헌터] 배지를 획득하지 못했습니다."</p>)}
+    // </div>
+    // <div className="bg-gray-200 p-4">
+    // {silverTrophy
+    //     ? (
+    //       <>
+    //       <img src="https://static.vecteezy.com/system/resources/previews/010/976/282/non_2x/silver-cup-3d-winner-award-2nd-place-minimal-silver-winners-stars-on-podium-champion-award-ceremony-concept-in-cartoon-style-3d-trophy-render-isolated-on-white-background-game-or-education-free-vector.jpg" />
+    //       <p>[미션 프로]</p>
+    //       </>
+    //       )
+    //     : (<p>"아직 [미션 프로] 배지를 획득하지 못했습니다."</p>)}
+    // </div>
+    // <div className="bg-gray-200 p-4">
+    // {goldTrophy
+    //     ? (
+    //       <>
+    //       <img src="https://static.vecteezy.com/system/resources/previews/010/976/289/non_2x/golden-cup-3d-winner-award-1st-place-minimal-gold-winners-stars-on-podium-champion-award-ceremony-concept-in-cartoon-style-3d-trophy-render-isolated-on-white-background-game-or-education-free-vector.jpg" />
+    //       <p>[미션 마스터]</p>
+    //       </>
+    //       )
+    //     : (<p>"아직 [미션 마스터] 배지를 획득하지 못했습니다."</p>)}
+    // </div>
+    // </div>
   );
 };
 
